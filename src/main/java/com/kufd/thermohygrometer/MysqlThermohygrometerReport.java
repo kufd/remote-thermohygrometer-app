@@ -20,7 +20,7 @@ public class MysqlThermohygrometerReport {
     private double humidityPercent;
     private String place;
     private LocalDateTime createdAt; //UTC
-    private LocalDateTime publishedAt;
+    private LocalDateTime publishedAt; //UTC
 
     protected MysqlThermohygrometerReport() {
     }
